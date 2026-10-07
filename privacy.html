@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>CellSense – Privacy Policy</h1>
-<p>Effective date: 6 October 2026</p>
+<p>Effective date: 7 October 2026</p>
 <p>CellSense (“the app”) is published by Kairos. This policy explains what the app does with data. In short: everything stays on your phone unless you switch on Remote monitoring.</p>
 
 <h2>Data that stays on your phone</h2>
@@ -20,16 +20,21 @@
   <li>Readings from your battery management system (BMS) received over Bluetooth: voltages, current, temperatures, state of charge, alarms and device information such as model and serial number.</li>
   <li>The names you give your batteries and their Bluetooth addresses.</li>
   <li>Reading history (kept for 90 days) and your settings.</li>
+  <li>If you turn on Location track: the phone’s position (time, coordinates, accuracy) and the battery level, saved while a battery is connected and kept for 90 days.</li>
 </ul>
 <p>This data is stored only in the app’s private storage on your device. It is not sent to us or to anyone else. Uninstalling the app deletes it. CSV exports are created only when you ask for one and are saved where you choose.</p>
 
 <h2>Permissions</h2>
 <ul>
   <li><b>Nearby devices (Bluetooth)</b> – to find your BMS and read data from it. The app declares that it does not derive location from Bluetooth scans.</li>
-  <li><b>Location (Android 11 and older only)</b> – these Android versions require it for any Bluetooth scan. The app does not read or store your location.</li>
+  <li><b>Location</b> – on Android 11 and older it is required for any Bluetooth scan. On any version it is also used, only after you turn on the optional Location track (Pro), to record where your batteries have been. Without Location track the app does not read or store your location.</li>
   <li><b>Notifications</b> – to show battery alerts and the ongoing notification while background monitoring is on.</li>
-  <li><b>Internet</b> – used only by the optional Remote monitoring feature described below.</li>
+  <li><b>Internet</b> – used only by the optional Remote monitoring feature and the Location track map described below.</li>
 </ul>
+
+<h2>Optional Location track</h2>
+<p>Location track is off by default. When you turn it on, the app saves the phone’s position while a battery is connected, together with the battery level, in the app’s private storage on your device. Positions are never uploaded, including by Remote monitoring. A GPX file is created only when you export one.</p>
+<p>When you open the track map, map images are downloaded from OpenFreeMap (tiles.openfreemap.org). Like any website, it receives your IP address and which map area is being shown. Turning Location track off stops recording; removing a battery or uninstalling the app deletes its saved positions.</p>
 
 <h2>Optional Remote monitoring</h2>
 <p>Remote monitoring is off by default. When you switch it on, on the phone that acts as the gateway:</p>
